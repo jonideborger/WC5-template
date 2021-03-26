@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  padding: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #0d0d0d;
+}
+
+h1 {
+  margin: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 18px;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 5px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1;
+  padding: 12px;
+}
+
+p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  padding: 6px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+label input {
+  position: relative;
+  margin-right: 10px;
+  top: -1px;
+}
+
+section:first-of-type {
+  width: 100%;
+  max-width: 300px;
+}
+
+section:nth-of-type(2) {
+  display: grid;
+  grid-template-columns: auto;
+  padding-top: 40px;
+  row-gap: 40px;
+  column-gap: 40px;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #0d0d0d;
+}
+
+main {
+  margin: auto;
+  display: flex;
+}
+
+#container {
+  max-width: 80%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#loginContainer {
+  align-self: center;
+  width: 80%;
+  margin: auto;
+}
+
+#loginForm {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+input {
+  height: 30px;
+  box-sizing: border-box;
+  float: left;
+  background: #fff;
+  border: 1px solid #0d0d0d;
+  margin: 5px;
+  border-radius: 2px;
+}
+
+input[type=text] {}
+
+input[type=submit] {
+  padding: 0px 20px;
+  line-height: 30px;
+  box-sizing: border-box;
+  border-radius: 0px;
+  border: 2px solid black;
+  background: black;
+  color: #fff;
+}
+
+/* User */
+#user {
+  width: 30%;
+  border: 2px solid #95a5a6;
+  border-radius: 6px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+#avatarContainer {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+#avatar {
+  max-width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 50%;
+}
+
+/* Content */
+#content {
+  width: 60%;
+  border: 2px solid #95a5a6;
+  border-radius: 6px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 6px;
+  margin-top: 12px;
+  text-align: left;
+}
+
+.message h4 {
+  text-align: left;
+}
+
+.message p {
+  text-align: left;
+}
+
+.error {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-size: 0.6em;
+  color: #e74c3c;
+  align-self: center;
+  margin: auto;
+}
+
+@media only screen and (min-width: 700px) {
+  body {
+    padding: 30px 50px;
+  }
+}
